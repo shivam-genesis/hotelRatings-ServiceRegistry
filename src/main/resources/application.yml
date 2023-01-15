@@ -1,0 +1,13 @@
+#Default port for eureka server
+server:
+  port: 8761
+
+eureka:
+  instance:
+    hostname: localhost
+  
+  
+  #Used to disable the microservice registry with eureka service registry  
+  client:
+    register-with-eureka: false
+    fetch-registry: false
